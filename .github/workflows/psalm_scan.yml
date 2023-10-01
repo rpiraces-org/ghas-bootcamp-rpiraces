@@ -1,6 +1,12 @@
 name: Psalm Static analysis
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+    - '2fauth-web/**'
+  pull_request:
+    paths: 
+    - '2fauth-web/**'
 
 jobs:
   psalm:
