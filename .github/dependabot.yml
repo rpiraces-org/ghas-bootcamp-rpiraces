@@ -34,3 +34,8 @@ updates:
     directory: "/storage-service" # Location of package manifests
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "composer" # See documentation for possible values
+    directory: "/2fauth-web" # Location of package manifests
+    schedule:
+      interval: "weekly"
