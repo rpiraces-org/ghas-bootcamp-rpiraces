@@ -30,7 +30,7 @@ updates:
     schedule:
       interval: "weekly"
 
-  - package-ecosystem: "gomod" # See documentation for possible values
+  - package-ecosystem: "maven" # See documentation for possible values
     directory: "/storage-service" # Location of package manifests
     schedule:
       interval: "weekly"
