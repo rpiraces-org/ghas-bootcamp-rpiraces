@@ -1,0 +1,15 @@
+.git
+.github
+.dockerignore
+.editorconfig
+.env.example
+.gitattributes
+.gitignore
+.styleci.yml
+.travis.yml
+changelog.md
+docker/README.md
+Dockerfile
+LICENSE
+README.md
+webpack.mix.js
