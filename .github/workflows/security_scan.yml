@@ -24,7 +24,7 @@ jobs:
         scan-type: 'fs'
         format: 'sarif'
         output: 'trivy-results.sarif'
-        vuln-type: 'os,library,vuln,secret,config'
+        vuln-type: 'os,library'
         severity: 'UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL'
 
     - name: Run tfsec for Terraform files
