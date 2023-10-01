@@ -13,6 +13,7 @@ jobs:
       - name: Psalm
         uses: docker://ghcr.io/psalm/psalm-github-actions
         with:
+          relative_dir: ./2fauth-web
           security_analysis: true
           report_file: results.sarif
 
