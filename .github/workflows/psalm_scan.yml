@@ -16,6 +16,7 @@ jobs:
           relative_dir: ./2fauth-web
           security_analysis: true
           report_file: results.sarif
+          composer_ignore_platform_reqs: true
 
       - name: Upload Security Analysis results to GitHub
         uses: github/codeql-action/upload-sarif@v2
