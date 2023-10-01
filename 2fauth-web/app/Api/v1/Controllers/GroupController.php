@@ -17,7 +17,7 @@ class GroupController extends Controller
     /**
      * Display all user groups.
      *
-     * @return array<string>
+     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
      */
     public function index(Request $request)
     {
